@@ -1,4 +1,4 @@
-# Embedded systems programming
+# Smart sprinkle system
 
 This project is for demonstration purposes only! Not licensed for reuse.
 
