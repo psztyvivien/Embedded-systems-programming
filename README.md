@@ -4,13 +4,13 @@ This project is for demonstration purposes only! Not licensed for reuse.
 
 The project was developed (on register level only) and tested on https://www.thinkercad.com . I did the project as a mid-term assignment, which was graded at the end of the semester. 
 
+## Details
 Challenge: Build an Arduino-based smart sprinkler system that automatically controls irrigation based on soil moisture levels.
 
-Sensors used: the system uses an analogue soil moisture sensor.
+The soil moisture sensor has a slider that allows adjusting the value within the set limits. The moisture's lower and upper limits can be adjusted, and if the moisture level falls below the minimum threshold, the motor needed for irrigation is activated, and the LED starts flashing red.
+The UART menu system is controlled by three buttons. The "Menu" button allows switching between menu options, while the "Up" and "Down" buttons are used to adjust the threshold values.
 
-Input and display devices: User input is provided by a button and status and settings are managed via a UART-based menu.
-
-## Hardware
+## Hardware / features
 - Arduino UNO
 - ATmega
 - LCD 16 x 2: displays the menu (UART)
