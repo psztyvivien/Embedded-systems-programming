@@ -42,3 +42,6 @@ https://www.tinkercad.com/things/dpe9m5VnoQG-intelligenslocsolorendszerbptrbj/ed
 - https://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7810-Automotive-Microcontrollers-ATmega328P_Datasheet.pdf
 - https://docs.arduino.cc/static/6ec5e4c2a6c0e9e46389d4f6dc924073/a6d36/Pinout-UNOrev3_latest.png
 - Course materials (for C programming) provided via Moodle (not publicly available)
+
+## Closing thoughts / conclusion as a quick note
+While not flawless, this project received positive feedback from my instructor. It reflects an early stage in my learning journey and helped deepen my interest in coding.
