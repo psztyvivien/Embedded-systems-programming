@@ -41,7 +41,7 @@ int Set = 0, flag = 0, flash = 0;
 
 //Timer variables
 unsigned long lastLcdUpdate = 0; // Last time LCD was updated
-const unsigned long lcdUpdateInterval = 1000; // Update LCD every 1000ms (1 second)
+const unsigned long lcdUpdateInterval = 1000; // Update LCD every 1000ms
 
 //functions
 void timer_init();
@@ -90,7 +90,7 @@ ISR(TIMER2_OVF_vect)  //triggers every ~16.384ms
     if(szamlalo==30)
     {
       szamlalo=0;
-      //LED villogtatas
+      //LED blinking
       PORTB ^= (1<<PB5); 
     }
     else counter++;
